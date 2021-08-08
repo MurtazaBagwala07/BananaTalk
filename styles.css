@@ -1,6 +1,7 @@
 body{
     background-image: url("minions.jpg");
-    
+    height: 100vh;
+    width: 100vw;
 }
 
 h1{
@@ -12,16 +13,27 @@ button{
     width: 10rem;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 textarea {
-    width: 80%;
+    width: 80rem;
     height: 15vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 1rem;
     padding: 1rem;
+    
         }
         
 .oup{
     text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 
@@ -30,7 +42,7 @@ textarea {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid black;
-    width: 80%;
+    width: 80rem;
     height: 15vh;
     font-weight: bolder;
     background-color: antiquewhite;
